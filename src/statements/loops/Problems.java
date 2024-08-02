@@ -62,5 +62,54 @@ public class Problems {
             }
             System.out.println();
         }
+
+        System.out.println("\n Pattern 4th\n");
+                char mainCh = 'A';
+                int mainNum = 1;
+
+                for (int i = 1; i <= 5; i++) {
+                    char ch = mainCh;
+                    int num = mainNum;
+                    for (int j = 1; j <= 5; j++) {
+                        if(j % 2 == 0){
+                            System.out.print(num + 5 + " ");
+                            num = num + (5*j);
+                            ch += 5;
+
+                        }else{
+                            if(i == 1) {
+                                System.out.print(ch + " ");
+                                ch += 5;
+                            }else {
+                                System.out.print(ch+ " ");
+                                ch += 5;
+                            }
+                        }
+                    }
+                    mainCh++;
+                    mainNum++;
+                    System.out.println();
+                }
+
+        System.out.println("\n Pattern 5th");
+        int n = 5;
+        for (int i = 1; i <= n; i++) {
+            for (int j = i; j < n; j++) {
+                System.out.print(" ");
+            }
+            for (int k = 1; k <= (2 * i - 1); k++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+
+        System.out.println("\n Prime numbers \n");
+
+        for(int i = 2; i<=120; i++){
+            if(((i %2 != 0) && (i %3 != 0) && (i %5 != 0) && (i %7 != 0))) {
+                System.out.print(i + " ");
+            }
+        }
     }
-}
+    }
