@@ -45,5 +45,7 @@ public class ArrayDemoo {
                 System.out.println("Frequency of "+ i + "=" + arr[i]);
             }
         }
+        System.out.println("Scannner");
+        String s = sc.next();
     }
 }
