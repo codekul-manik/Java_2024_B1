@@ -1,4 +1,4 @@
-package array;
+package array.onedarray;
 
 public class ArrayDemo {
     public static void main(String[] args) {
