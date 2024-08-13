@@ -57,7 +57,6 @@ public class Problems {
         printArray(arr);
     }
 
-
     public static void buyAndSellStocks(int[] arr) {
         if (arr.length < 2) {
             System.out.println("Not enough data to determine profit.");
