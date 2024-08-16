@@ -44,8 +44,7 @@ public class DemoSix {
             System.out.print(c[i] + " ");
         }
 
-        System.out.println("Reverse String is : "+ String.copyValueOf(c));
-
+        System.out.println("Reverse String is : "+ String.valueOf(c));
         System.out.println("charAt : " + str.charAt(0));
     }
 }
