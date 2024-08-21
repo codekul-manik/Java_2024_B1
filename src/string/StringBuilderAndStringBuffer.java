@@ -68,12 +68,18 @@ StringBuffer (due to synchronization overhead). String can be inefficient for re
         String str = new String("Mam");
 
         //StringBuilder
-        StringBuilder stringBuilder = new StringBuilder("Mam");
-        System.out.println(stringBuilder);
+        StringBuilder stringBuilder = new StringBuilder("Manik");           //16
+        stringBuilder.append("ManikManikManikManikManik");                   //21 * 2 + 2
+
+        System.out.println(stringBuilder.length());     //25
+        System.out.println(stringBuilder.capacity());   //44
+
 
         //StringBuffer
-        StringBuffer stringBuffer = new StringBuffer("Mam");
-        System.out.println(stringBuffer);
+        StringBuffer stringBuffer = new StringBuffer("Manik");
+        stringBuffer.append("ManikManikManikManikManik");
+        System.out.println(stringBuffer.length());     //25
+        System.out.println(stringBuffer.capacity());   //44
     }
 }
 
