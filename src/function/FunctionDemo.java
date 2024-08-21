@@ -11,9 +11,6 @@ public class FunctionDemo {
     //2 : User-defined
 
     //User defined function
-    public static int addNum(int a , int b){
-        return a + b;
-    }
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -21,8 +18,5 @@ public class FunctionDemo {
         String str = br.readLine();
         System.out.println("Why not?");
 
-        //call function
-        int ans = FunctionDemo.addNum(10,20);
-        System.out.println(ans);
     }
 }
