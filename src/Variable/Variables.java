@@ -1,13 +1,11 @@
 package Variable;
 
 public class Variables {
-
     //instance variable
     int a = 10;
 
     //static
     static int b = 20;
-
 
     public static void main(String[] args) {
         //local variable
