@@ -1,7 +1,7 @@
 package Variable;
 
 public class RahulTower {
-    static int waterCapacity = 0;
+    static int waterCapacity = 100;
     int personalWaterCapacity = 0;
 
     public static void main(String[] args) {
